@@ -1,0 +1,7 @@
+{
+  "name": "ilm-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ilm Card website and admin portal",
+  "type": "module"
+}
