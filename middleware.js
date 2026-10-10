@@ -1,6 +1,6 @@
 // Vercel Routing Middleware: protects /admin with a username and password.
 // Set ADMIN_USER and ADMIN_PASS in Vercel > Project > Settings > Environment Variables.
-export const config = { matcher: ['/admin', '/admin/:path*'] };
+export const config = { matcher: ['/admin', '/admin.html', '/admin/:path*'] };
 
 function unauthorized(message) {
   return new Response(message, {
